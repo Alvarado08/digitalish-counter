@@ -1,3 +1,3 @@
 # Digitalish Counter
 
-[Live Demo](# "Live At")
+[Live Demo](https://alvarado08.github.io/digitalish-counter/ "Live At")
