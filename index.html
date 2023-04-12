@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js" defer></script>
+    <title>Digitalish Counter</title>
+</head>
+<body class="bg-black">
+    <div id="container" class="flex flex-col items-center justify-center min-h-screen">
+        <h1 class="text-7xl text-green-600 font-bold">DIGITALISH COUNTER</h1>
+        <h1 id="count" class="animate-bounce my-6 text-6xl text-green-600 font-bold"></h1>
+        <button id="btn-count" class="w-28 rounded-md p-2 text-white bg-green-600 animate-pulse">CLICK ME!</button>
+        <button id="btn-reset" class="w-28 mt-2 rounded-md p-2 bg-red-600 text-white hidden transition ease-in delay-300">RESET</button>
+    </div>
+</body>
+</html>
